@@ -22,8 +22,7 @@ namespace IntToBinary
 
             Console.WriteLine(sumTwoSmallestNumbers(numbers));
             
-            var diff = ArrayDiff(numbers, anotherNumbers);
-            Console.WriteLine(string.Join(" ", diff));
+            Console.WriteLine(string.Join(" ", ArrayDiff(numbers, anotherNumbers)));
             
             Console.WriteLine(find_it(numbers));
 
