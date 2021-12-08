@@ -21,13 +21,7 @@ namespace IntToBinary
             Console.WriteLine("Is Aba isogram? - " + IsIsogram("Aba"));
 
             Console.WriteLine(sumTwoSmallestNumbers(numbers));
-
-            //var diff = ArrayDiff(numbers, anotherNumbers);
-            //for (int i = 0; i < diff.Length; i++)
-            //{
-            //    Console.Write(diff[i] + "  ");
-            //}
-
+            
             Console.WriteLine(find_it(numbers));
 
             Console.WriteLine("4of Fo1r pe6ople g3ood th5e the2 => " + Order("4of Fo1r pe6ople g3ood th5e the2"));
